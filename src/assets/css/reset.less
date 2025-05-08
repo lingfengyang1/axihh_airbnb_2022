@@ -1,0 +1,21 @@
+@import "./variable.less";
+
+// 一般的话 很多网站在重置margin和padding为0时都会直接采用* 虽说他会迭代所有的元素 但是实际上造成的性能损耗并不高
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: @textColorPrimary;
+    text-decoration: none;
+}
+
+img {
+    // 消除图片底部默认存在的空隙
+    vertical-align: top;
+}
+
+ul, li {
+    list-style: none;
+}
