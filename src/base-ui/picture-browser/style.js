@@ -10,6 +10,7 @@ export const BrowserWrapper = styled.div`
     background-color: #333;
     display: flex;
     flex-direction: column;
+    z-index: 99;
 
     .top {
         height: 86px;
