@@ -8,7 +8,6 @@ import SearchTab from './c-cpns/search-tab'
 import SearchSection from './c-cpns/search-section'
 import { PropTypes } from 'prop-types';
 import { CSSTransition } from 'react-transition-group'
-import { classNames } from 'classnames';
 
 const HeaderCenter = memo((props) => {
   const {isSearch, searchBarClick} = props

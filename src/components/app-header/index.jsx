@@ -1,4 +1,4 @@
-import React, { memo, useEffect, useRef, useState } from 'react'
+import React, { memo, useRef, useState } from 'react'
 import { HeaderWrapper, SearchAreaWrapper } from './style'
 import HeaderLeft from './c-cpns/left'
 import HeaderCenter from './c-cpns/center'

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { coverImg } from '@/assets/img/cover_01.jpeg';
 
 export const RoomsWrapper = styled.div`
     margin-top: 128px;

@@ -1,10 +1,9 @@
-import PropTypes from 'prop-types'
 import React, { memo } from 'react'
 import Pagination from "@mui/material/Pagination"
 
 import { PaginationWrapper } from './style'
 import { useDispatch, useSelector } from 'react-redux'
-import { changeCurrentPageAction, fetchEntireInfoAction } from '@/store/modules/entire/actionCreators'
+import { fetchEntireInfoAction } from '@/store/modules/entire/actionCreators'
 
 const EntirePagination = memo((props) => {
   const {totalCount, currentPage, roomList = []} = useSelector(state => ({

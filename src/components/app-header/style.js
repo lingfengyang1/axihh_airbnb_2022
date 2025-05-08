@@ -1,6 +1,4 @@
 import styled from "styled-components"
-import EntireFilter from './../../views/entire/c-cpns/entire-filter/index';
-import HeaderRight from './c-cpns/right/index';
 
 export const HeaderWrapper = styled.div`
 

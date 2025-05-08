@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types'
 import React, { memo, useCallback } from 'react'
 import { RoomsWrapper } from './style'
 import { useDispatch, useSelector } from 'react-redux'
@@ -24,7 +23,7 @@ const EntireRooms = memo((props) => {
 
     // 跳转到详情页
     navigate("/detail")
-  })
+  }, [dispatch])
 
   return (
     <RoomsWrapper>

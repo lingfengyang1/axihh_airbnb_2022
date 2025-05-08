@@ -1,4 +1,4 @@
-import React, { memo, useEffect, useState } from 'react'
+import React, { memo, useState } from 'react'
 import { PictureWrapper } from './style'
 import { PropTypes } from 'prop-types';
 import PictureBrowser from '@/base-ui/picture-browser';

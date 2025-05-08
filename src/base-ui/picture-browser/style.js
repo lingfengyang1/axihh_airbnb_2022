@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Indicator } from '@/base-ui/indicator';
 
 export const BrowserWrapper = styled.div`
     position: fixed;

@@ -1,5 +1,3 @@
-import PropTypes from 'prop-types'
-
 import searchTitles from "@/assets/data/search_titles.json"
 import React, { memo, useState } from 'react'
 import { TabWrapper } from './style'
