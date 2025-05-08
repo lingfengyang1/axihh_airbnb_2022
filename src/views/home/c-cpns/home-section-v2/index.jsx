@@ -31,7 +31,7 @@ const HomeSectionV2 = memo((props) => {
 
   const tabClickHandle = useCallback(function(index, item) {
     setName(item)
-  })
+  }, [setName])
 
   return (
     <SectionV2Wrapper>

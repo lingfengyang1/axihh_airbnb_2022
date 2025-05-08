@@ -23,7 +23,7 @@ const EntireRooms = memo((props) => {
 
     // 跳转到详情页
     navigate("/detail")
-  }, [dispatch])
+  }, [dispatch, navigate])
 
   return (
     <RoomsWrapper>
