@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { HashRouter } from 'react-router-dom';
 // 我们在引入ui组件库时 难免会对我们原有的项目产生一些意外的修改 比如引入ant-design库时 他会对所有的元素的box-sizing都重置为border-box 但有些元素实际上是想维持content-box的 因此的话 你可以为某些元素在重置为content-box即可
